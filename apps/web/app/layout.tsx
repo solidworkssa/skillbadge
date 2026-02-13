@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SkillBadge - Achievement NFTs',
-  description: 'Mint soulbound achievement badges on Base and Stacks',
+  title: 'SkillBadge',
+  description: 'NFT-based skill certification',
 }
 
 export default function RootLayout({
