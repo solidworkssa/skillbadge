@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title SkillBadge Contract
+/// @author solidworkssa
 /// @notice NFT-based skill certification and verification system.
 contract SkillBadge {
+    string public constant VERSION = "1.0.0";
+
 
     struct Badge {
         address recipient;
