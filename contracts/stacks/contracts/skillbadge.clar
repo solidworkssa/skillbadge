@@ -38,7 +38,7 @@
         (map-set badge-info token-id {
             recipient: recipient,
             skill: skill,
-            issuer: tx-sender,
+            issuer: contract-caller,
             timestamp: block-height
         })
         (var-set next-token-id (+ token-id u1))
